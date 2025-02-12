@@ -11,7 +11,7 @@ const Topheader = () => {
                                 <li>
                                     <div className="select_option">
                                         <div className="flug_wrap">
-                                            <img src="assets/images/flug/flug_uk.png" alt="image_not_found"/>
+                                            <img src="./images/flug/flug_uk.png" alt="image_not_found"/>
                                         </div>
                                         <select>
                                             <option data-display="Select Option">Select Your Language</option>
@@ -49,7 +49,7 @@ const Topheader = () => {
                         <div className="col col-lg-3 col-md-3 col-sm-12">
                             <div className="brand_logo">
                                 <a className="brand_link" href="index-2.html">
-                                    <img src="assets/images/logo/logo_1x.png" srcset="assets/images/logo/logo_2x.png 2x" alt/>
+                                    <img src="./images/logo/logo_1x.png" srcset="assets/images/logo/logo_2x.png 2x" alt/>
                                 </a>
                             </div>
                         </div>
