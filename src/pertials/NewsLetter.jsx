@@ -2,7 +2,7 @@ import React from 'react';
 
 const NewsLetter = () => {
     return (
-        <section class="newsletter_section">
+    <section class="newsletter_section">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col col-lg-6">
