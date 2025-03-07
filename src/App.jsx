@@ -7,6 +7,8 @@ import BlogDetails from './pages/BlogDetails';
 import BlogWidth from './pages/BlogWidth';
 import BlogLeftSidebar from './pages/BlogLeftSidebar';
 import Blog from './pages/Blog';
+import CardEmpty from './pages/CardEmpty';
+import Card from './pages/Card';
 
 function App() {
   return (
@@ -19,6 +21,10 @@ function App() {
         <Route path="/blog_width" element={<BlogWidth/>} />
         <Route path="/blog_sidebar" element={<BlogLeftSidebar/>} />
         <Route path="/blog" element={<Blog/>} />
+        <Route path="/card_empty" element={<CardEmpty/>} />
+        <Route path="/card" element={<Card/>} />
+
+
 
 
       </Routes>
