@@ -9,6 +9,7 @@ import BlogLeftSidebar from './pages/BlogLeftSidebar';
 import Blog from './pages/Blog';
 import CardEmpty from './pages/CardEmpty';
 import Card from './pages/Card';
+import CheckOut from './pages/CheckOut';
 
 function App() {
   return (
@@ -23,10 +24,7 @@ function App() {
         <Route path="/blog" element={<Blog/>} />
         <Route path="/card_empty" element={<CardEmpty/>} />
         <Route path="/card" element={<Card/>} />
-
-
-
-
+        <Route path="/checkout" element={<CheckOut/>} />
       </Routes>
     </BrowserRouter>
   );
