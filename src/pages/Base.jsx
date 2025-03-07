@@ -150,10 +150,10 @@ const Base = ({ children }) => {
                                         <li className="dropdown">
                                             <Link className="nav-link" to="#" id="blog_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Blog </Link>
                                             <ul className="submenu dropdown-menu" aria-labelledby="blog_submenu">
-                                                <li><Link to="blog.html">Blog Standard</Link></li>
-                                                <li><Link to="blog-left-sidebar.html">Blog Left sidebar</Link></li>
-                                                <li><Link to="blog-fullwidth.html">Blog Full width</Link></li>
-                                                <li><Link to="blog_details.html">Blog Details</Link></li>
+                                                <li><Link to="/blog">Blog Standard</Link></li>
+                                                <li><Link to="/blog_sidebar">Blog Left sidebar</Link></li>
+                                                <li><Link to="/blog_width">Blog Full width</Link></li>
+                                                <li><Link to="/blog_details">Blog Details</Link></li>
                                             </ul>
                                         </li>
                                         <li className="dropdown">
