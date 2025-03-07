@@ -5,6 +5,15 @@ import { Link } from 'react-router-dom';
 const CheckOut = () => {
     return (
         <Base>
+            <div class="breadcrumb_section">
+                <div class="container">
+                    <ul class="breadcrumb_nav ul_li">
+                        <li><Link to="/home">Home</Link></li>
+                        <li>Check Out</li>
+                    </ul>
+                </div>
+            </div>
+
             <section className="checkout-section section_space">
                <div className="container">
                   <div className="row">

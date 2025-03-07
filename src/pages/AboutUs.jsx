@@ -1,9 +1,19 @@
 import React from 'react';
 import Base from './Base';
+import { Link } from 'react-router-dom';
 
 const AboutUs = () => {
     return (
         <Base>
+            <div class="breadcrumb_section">
+                <div class="container">
+                    <ul class="breadcrumb_nav ul_li">
+                        <li><Link to="/home">Home</Link></li>
+                        <li>About Us</li>
+                    </ul>
+                </div>
+            </div>
+
             <section class="about_section section_space">
                 <div class="container">
                     <div class="row align-items-center">

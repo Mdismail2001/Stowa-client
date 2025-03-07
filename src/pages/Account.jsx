@@ -5,6 +5,15 @@ import Base from './Base';
 const Account = () => {
     return (
         <Base>
+            <div class="breadcrumb_section">
+                <div class="container">
+                    <ul class="breadcrumb_nav ul_li">
+                        <li><Link to="/home">Home</Link></li>
+                        <li>My Account</li>
+                    </ul>
+                </div>
+            </div>
+
             <section className="account_section section_space">
                 <div className="container">
                     <div className="row">

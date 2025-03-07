@@ -10,12 +10,14 @@ import Blog from './pages/Blog';
 import CardEmpty from './pages/CardEmpty';
 import Card from './pages/Card';
 import CheckOut from './pages/CheckOut';
-
+import Compare from './pages/Compare';
+import Contact from './pages/Contact';
+import Error from './pages/Error';
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="" element={<Index />} />
+        <Route path="/home" element={<Index />} />
         <Route path="/about" element={<AboutUs/>} />
         <Route path="/account" element={<Account/>} />
         <Route path="/blog_details" element={<BlogDetails/>} />
@@ -25,6 +27,11 @@ function App() {
         <Route path="/card_empty" element={<CardEmpty/>} />
         <Route path="/card" element={<Card/>} />
         <Route path="/checkout" element={<CheckOut/>} />
+        <Route path="/compare" element={<Compare/>} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/error" element={<Error/>} />
+ 
+
       </Routes>
     </BrowserRouter>
   );

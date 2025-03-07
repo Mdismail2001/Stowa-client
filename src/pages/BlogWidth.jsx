@@ -1,9 +1,19 @@
 import React from 'react';
 import Base from './Base';
+import { Link } from 'react-router-dom';
 
 const BlogWidth = () => {
     return (
         <Base>
+            <div class="breadcrumb_section">
+                <div class="container">
+                    <ul class="breadcrumb_nav ul_li">
+                        <li><Link to="/home">Home</Link></li>
+                        <li>Blog Standard</li>
+                    </ul>
+                </div>
+            </div>
+
             <section class="blog-pg-section section_space">
                 <div class="container">
                     <div class="row">

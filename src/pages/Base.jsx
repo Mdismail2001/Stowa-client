@@ -174,10 +174,10 @@ const Base = ({ children }) => {
                                                         <li><Link to="order_tracking.html">Order Tracking</Link></li>
                                                     </ul>
                                                 </li>
-                                                <li><Link to="error.html">404 Error</Link></li>
+                                                <li><Link to="/error">404 Error</Link></li>
                                             </ul>
                                         </li>
-                                        <li><Link className="nav-link" to="contact.html">Contact Us</Link></li>
+                                        <li><Link className="nav-link" to="/contact">Contact Us</Link></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -216,14 +216,6 @@ const Base = ({ children }) => {
         </div>
 
 
-      <div className="breadcrumb_section">
-        <div className="container">
-          <ul className="breadcrumb_nav ul_li">
-            <li><Link to="/home">Home</Link></li>
-            <li>About Us</li>
-          </ul>
-        </div>
-      </div>
       
 
       {/* Middle Content */}
