@@ -142,9 +142,9 @@ const Base = ({ children }) => {
                                         <li className="dropdown">
                                             <Link className="nav-link" to="#" id="shop_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</Link>
                                             <ul className="submenu dropdown-menu" aria-labelledby="shop_submenu">
-                                                <li><Link to="shop_grid.html">Shop Grid</Link></li>
-                                                <li><Link to="shop_list.html">Shop List</Link></li>
-                                                <li><Link to="shop_details.html">Shop Details</Link></li>
+                                                <li><Link to="/shop_grid">Shop Grid</Link></li>
+                                                <li><Link to="/shop_list">Shop List</Link></li>
+                                                <li><Link to="/shop_details">Shop Details</Link></li>
                                             </ul>
                                         </li>
                                         <li className="dropdown">
@@ -160,18 +160,18 @@ const Base = ({ children }) => {
                                             <Link className="nav-link" to="#" id="pages_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Pages </Link>
                                             <ul className="submenu dropdown-menu" aria-labelledby="pages_submenu">
                                                 <li><Link to="/about">About Us</Link></li>
-                                                <li><Link to="team.html">Team</Link></li>
+                                                <li><Link to="/team">Team</Link></li>
                                                 <li><Link to="/account">My Account</Link></li>
-                                                <li><Link to="register.html">Register</Link></li>
+                                                <li><Link to="/register">Register</Link></li>
                                                 <li className="dropdown">
                                                     <Link to="#" id="cart_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shopping Cart</Link>
                                                     <ul className="submenu dropdown-menu" aria-labelledby="cart_submenu">
-                                                        <li><Link to="cart.html">Cart</Link></li>
-                                                        <li><Link to="cart_empty.html">Cart Empty</Link></li>
-                                                        <li><Link to="checkout.html">Checkout</Link></li>
-                                                        <li><Link to="compare.html">Compare</Link></li>
-                                                        <li><Link to="wishlist.html">Wishlist</Link></li>
-                                                        <li><Link to="order_tracking.html">Order Tracking</Link></li>
+                                                        <li><Link to="/card">Cart</Link></li>
+                                                        <li><Link to="/card_empty">Cart Empty</Link></li>
+                                                        <li><Link to="/checkout">Checkout</Link></li>
+                                                        <li><Link to="/compare">Compare</Link></li>
+                                                        <li><Link to="/wish_list">Wishlist</Link></li>
+                                                        <li><Link to="/order_tracking">Order Tracking</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li><Link to="/error">404 Error</Link></li>
