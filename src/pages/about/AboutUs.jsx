@@ -2,6 +2,13 @@ import React from 'react';
 import Base from '../Base';
 import { Link } from 'react-router-dom';
 
+/**
+ * Renders the About Us page component, which includes a breadcrumb navigation
+ * and an about section. The about section consists of an image and content 
+ * that highlights company history, a description, and some key statistics 
+ * such as years of experience, happy customers, and client satisfaction.
+ */
+
 const AboutUs = () => {
     return (
         <Base>

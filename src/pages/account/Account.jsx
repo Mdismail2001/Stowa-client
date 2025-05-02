@@ -2,6 +2,30 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Base from '../Base';
 
+/**
+ * Account component displays the user's account dashboard with various sections
+ * including a breadcrumb navigation, account menu, and content area.
+ * 
+ * The breadcrumb navigation provides a link back to the home page.
+ * 
+ * The account menu allows navigation to different account-related pages such as:
+ * - Account Dashboard
+ * - Account Information
+ * - Address Book
+ * - My Orders
+ * - Billing Agreements
+ * - Recurring Profiles
+ * - My Product Reviews
+ * - My Tags
+ * - My Wishlist
+ * - My Applications
+ * - Newsletter Subscriptions
+ * - My Downloadable Products
+ * 
+ * The content area includes a greeting to the user, and provides options to
+ * edit account information, manage newsletter subscriptions, and address book.
+ */
+
 const Account = () => {
     return (
         <Base>
