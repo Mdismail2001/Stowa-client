@@ -2,6 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Base from './Base';
 
+/**
+ * A component to render the account page.
+ *
+ * This component renders the account page which includes the account dashboard,
+ * account information, address book, orders, billing agreements, recurring profiles,
+ * product reviews, tags, wishlist, applications, newsletter subscriptions, and
+ * downloadable products.
+ *
+ * @return {ReactElement} The rendered page.
+ */
 const Account = () => {
     return (
         <Base>
