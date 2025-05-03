@@ -1,0 +1,11 @@
+import React from 'react';
+
+const Index3 = () => {
+    return (
+        <div>
+            this is index3
+        </div>
+    );
+};
+
+export default Index3;
